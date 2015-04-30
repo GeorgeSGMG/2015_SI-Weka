@@ -76,7 +76,7 @@ public class Iris {
 		dataAttribs.addElement(species);
 		dataModel = new Instances("classify", dataAttribs, 0);
 		dataModel.setClass(species);
-		dataModel.add(new Instance(1, values));
+//		dataModel.add(new Instance(1, values)); ¡ESTA LINEA ESTA COMENTADA PORQUE DABA ERROR! :)
 		dataModel.instance(0).setClassMissing();
 
 		//  Find the class with the highest estimated likelihood
