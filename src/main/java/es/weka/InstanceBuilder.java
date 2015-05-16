@@ -127,8 +127,8 @@ public abstract class InstanceBuilder<A extends Enum<A>,C> {
                 
                 TypedAttribute attr = _attributes[a.ordinal()] ;
                 
-                //if (!attr.getClassType().equals(v.getClass()))
-                        //throw new IllegalArgumentException("'" + a + "' is not a " + v.getClass() + " attribute") ;
+                if (!attr.getClassType().equals(v.getClass()))
+                        throw new IllegalArgumentException("'" + a + "' is not a " + v.getClass() + " attribute") ;
                 
                 if (v == null) {
                         _instance.setValue(attr, Instance.missingValue()) ;

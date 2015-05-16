@@ -1,0 +1,16 @@
+@relation sms_test
+
+@attribute text String
+@attribute spamclass {spam,ham,s}
+
+@data
+'Please don\'t text me anymore. I have nothing else to say.',ham
+'Okay name ur price as long as its legal! Wen can I pick them up? Y u ave x ams xx',ham
+'I\'m still looking for a car to buy. And have not gone 4the driving test yet.',s
+'As per your request \'Melle Melle (Oru Minnaminunginte Nurungu Vettam)\' has been set as your callertune for all Callers. Press *9 to copy your friends Callertune',ham
+'wow. You\'re right! I didn\'t mean to do that. I guess once i gave up on boston men and changed my search location to nyc, something changed. Cuz on my signin page it still says boston.',ham
+'GENT! We are trying to contact you. Last weekends draw shows that you won a £1000 prize GUARANTEED. Call 09064012160. Claim Code K52. Valid 12hrs only. 150ppm',spam
+'You are a winner U have been specially selected 2 receive £1000 or a 4* holiday (flights inc) speak to a live operator 2 claim 0871277810910p/min (18+) ',spam
+'PRIVATE! Your 2004 Account Statement for 07742676969 shows 786 unredeemed Bonus Points. To claim call 08719180248 Identifier Code: 45239 Expires',spam
+'URGENT! Your Mobile No. was awarded £2000 Bonus Caller Prize on 5/9/03 This is our final try to contact U! Call from Landline 09064019788 BOX42WR29C, 150PPM',spam
+'Todays Voda numbers ending 7548 are selected to receive a $350 award. If you have a match please call 08712300220 quoting claim code 4041 standard rates app',spam

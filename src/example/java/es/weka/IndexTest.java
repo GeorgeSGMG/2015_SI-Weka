@@ -110,14 +110,14 @@ public class IndexTest {
 //		if (args.length < 2)
 //			System.out.println("Usage: java IndexTest <fileInput> <fileOutput>");
 //		else {
-			indexer.loadARFF("src/example/resources/smsspam.small.train.arff");
+			indexer.loadARFF("src/example/resources/smsspam.small.test3.arff");
 			time1 = System.currentTimeMillis();
 			System.out.println("Started indexing at: " + time1);
 			indexer.index();
 			time2 = System.currentTimeMillis();
 			System.out.println("Finished indexing at: " + time2);
 			System.out.println("Total indexing time: " + (time2-time1));
-			indexer.saveARFF("src/example/resources/result.arff");
+			indexer.saveARFF("src/example/resources/result2.arff");
 //		}
 	}
 }
