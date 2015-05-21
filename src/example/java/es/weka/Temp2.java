@@ -22,7 +22,7 @@ public class Temp2 {
             while((cadena = b.readLine())!=null) {
                 String s = cadena;
                 if (s.charAt(1)=='0') {
-                	s = "{" + s.substring(7, s.length()-1) + ",1446 ham}";
+                	s = "{" + s.substring(7, s.length()-1) + ",1491 ham}";
                 }
             	pw.println(s);
             }
